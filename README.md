@@ -1,5 +1,3 @@
-# EndpointAnalytics RemediationScript Apache-Commons-text
-
 # Microsoft Defender Vulnerability management found this
 
 Update Apache Commons Text
