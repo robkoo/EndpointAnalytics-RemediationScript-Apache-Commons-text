@@ -20,11 +20,11 @@ It turned out that folders of previous versions of JetBrain Rider profiles were 
 
 These folders and files were found on our development workstations:
 
-%APPPDATA%\JetBrains\Rider2021.1\plugins\azure-toolkit-for-rider\commons-text-1.8.jar
-%APPPDATA%\JetBrains\Rider2021.2\plugins\azure-toolkit-for-rider\commons-text-1.8.jar
-%APPPDATA%\JetBrains\Rider2021.3\plugins\azure-toolkit-for-rider\commons-text-1.8.jar
-%APPPDATA%\JetBrains\Rider2022.1\plugins\azure-toolkit-for-rider\commons-text-1.10.0.jar
-%APPPDATA%\JetBrains\Rider2023.1\plugins\azure-toolkit-for-rider\commons-text-1.10.0.jar
+- %APPPDATA%\JetBrains\Rider2021.1\plugins\azure-toolkit-for-rider\commons-text-1.8.jar
+- %APPPDATA%\JetBrains\Rider2021.2\plugins\azure-toolkit-for-rider\commons-text-1.8.jar
+- %APPPDATA%\JetBrains\Rider2021.3\plugins\azure-toolkit-for-rider\commons-text-1.8.jar
+- %APPPDATA%\JetBrains\Rider2022.1\plugins\azure-toolkit-for-rider\commons-text-1.10.0.jar
+- %APPPDATA%\JetBrains\Rider2023.1\plugins\azure-toolkit-for-rider\commons-text-1.10.0.jar
 
 # Detection and remediation script for Defender
 This detection and remediation scripts finds old Jetbrain Rider profiles and removes all profile flders except the latest one.
