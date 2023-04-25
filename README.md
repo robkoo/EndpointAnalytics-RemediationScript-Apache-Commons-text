@@ -1,4 +1,4 @@
-# Microsoft Defender Vulnerability management found this
+# Microsoft Defender Vulnerability management found this thread
 
 Update Apache Commons Text
 Remediation required
