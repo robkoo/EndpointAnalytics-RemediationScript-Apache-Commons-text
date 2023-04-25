@@ -27,4 +27,4 @@ These folders and files were found on our development workstations:
 - %APPPDATA%\JetBrains\Rider2023.1\plugins\azure-toolkit-for-rider\commons-text-1.10.0.jar
 
 # Detection and remediation script for Defender
-This detection and remediation scripts finds old Jetbrain Rider profiles and removes all profile flders except the latest one.
+This detection and remediation scripts finds old JetBrain Rider profiles and removes all JetBrain Rider profile folders except the latest one.
