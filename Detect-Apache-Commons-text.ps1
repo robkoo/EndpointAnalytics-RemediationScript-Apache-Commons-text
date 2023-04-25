@@ -2,11 +2,15 @@
 $Debug = 0
 
 $Folder = $env:APPDATA + '\JetBrains\'
+
 If ($Debug) {
-    $Folder = 'C:\Users\RobKooiman\OneDrive - MijnBedrijf365\Script\PowerShell\Intune\EndpointAnalyticsRemediationScripts\Commons-text\Test\'
+    Write-Host $Folder -ForegroundColor Yellow
 }
 
-Write-Host $Folder -ForegroundColor Yellow
+If ($Debug) {
+    $Folder = '.\Test\'
+    Write-Host $Folder -ForegroundColor Yellow
+}
 
 If (Test-Path $Folder) {
     $Folders = Get-ChildItem -Path ($Folder + "Rider20*.*") -Directory | Sort-Object  Name -Desc
