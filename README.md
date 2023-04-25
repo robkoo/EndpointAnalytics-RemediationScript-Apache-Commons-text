@@ -16,7 +16,7 @@ Vulnerability description
 This vulnerability affects the following vendors: Suse, Apache, Netapp, Juniper. To view more details about this vulnerability please visit the vendor website.
 
 # Files found
-It turned out that folders of previous versions of JetBrain Rider profiles were not removed containing old versions of Apache Commons text.
+It turned out that folders of previous versions of JetBrains Rider profiles were not removed containing old versions of Apache Commons text.
 
 These folders and files were found on our development workstations:
 
@@ -27,4 +27,4 @@ These folders and files were found on our development workstations:
 - %APPPDATA%\JetBrains\Rider2023.1\plugins\azure-toolkit-for-rider\commons-text-1.10.0.jar
 
 # Detection and remediation script for Defender
-This detection and remediation scripts finds old JetBrain Rider profiles and removes all JetBrain Rider profile folders except the latest one.
+This detection and remediation scripts finds old JetBrains Rider profiles and removes all JetBrains Rider profile folders except the latest one.
