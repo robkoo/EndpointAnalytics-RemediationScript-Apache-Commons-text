@@ -5,9 +5,6 @@ $Folder = $env:APPDATA + '\JetBrains\'
 
 If ($Debug) {
     Write-Host $Folder -ForegroundColor Yellow
-}
-
-If ($Debug) {
     $Folder = '.\Test\'
     Write-Host $Folder -ForegroundColor Yellow
 }
