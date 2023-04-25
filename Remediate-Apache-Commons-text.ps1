@@ -2,11 +2,10 @@
 $Debug = 0
 
 $Folder = $env:APPDATA + '\JetBrains\'
-#If ($Debug) {
-    $Folder = 'C:\Users\RobKooiman\OneDrive - MijnBedrijf365\Script\PowerShell\Intune\EndpointAnalyticsRemediationScripts\Commons-text\Test\'
-#}
 
 If ($Debug) {
+    Write-Host $Folder -ForegroundColor Yellow
+    $Folder = '.\Test\'
     Write-Host $Folder -ForegroundColor Yellow
 }
 
