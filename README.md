@@ -28,3 +28,5 @@ These folders and files were found on our development workstations:
 
 # Detection and remediation script for Defender
 This detection and remediation scripts finds old JetBrains Rider profiles and removes all JetBrains Rider profile folders except the latest one.
+
+Run this Defender scripts in the user context.
