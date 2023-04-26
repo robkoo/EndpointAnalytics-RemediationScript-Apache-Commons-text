@@ -28,5 +28,6 @@ If (Test-Path $Folder) {
                 }
             }
         }
+        Exit 0
     }
 }
